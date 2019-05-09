@@ -5551,7 +5551,6 @@ var rules = [
 var lastRule = '';
 
 function FindProxyForURL(url, host) {
-    return proxy;
     for (var i = 0; i < rules.length; i++) {
         ret = testHost(host, i);
         if (ret != undefined)
