@@ -5,7 +5,9 @@ var proxy = "SOCKS 127.0.0.1:1082"
 //自定义规则.放在一个数组里。比如["a.com","b.com","-v2ex.com"]默认是append，如果以减号"-"开头就是从gfwlist中删除
 var myHosts = [
     "githubusercontent.com", "assets-cdn.github.com", "xda-developers.com", "fastly.net", 
-    "cdn.sstatic.net", "google.com", "stripe.com", "google.com.hk", 
+	"cdn.sstatic.net", "google.com", "stripe.com", "google.com.hk", 
+	"smtp.google.com", "pop.google.com", "pop3.google.com", "imap.google.com",
+	"gmail.com", "smtp.gmail.com", "pop.gmail.com", "pop3.gmail.com", "imap.gmail.com",
     "cdn.infoqstatic.com", "blogspot.com",
     "facebook.com",
     "twitter.com"
