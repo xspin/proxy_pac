@@ -1,8 +1,8 @@
 /******默认代理和自定义规则可以在下面两行中配置：******/
 //自定义默认proxy：1. http代理->PROXY host:port 2. socks代理-> SOCKS host:port
 // var proxy=typeof _proxy !="undefined"&&_proxy?_proxy:"SOCKS 127.0.0.1:1082; DIRECT";
-var proxy = "SOCKS 127.0.0.1:1080"
 //自定义规则.放在一个数组里。比如["a.com","b.com","-v2ex.com"]默认是append，如果以减号"-"开头就是从gfwlist中删除
+var proxy = "SOCKS 127.0.0.1:1080"
 
 var myHosts = [
     "githubusercontent.com", "assets-cdn.github.com", "xda-developers.com", "fastly.net", 
