@@ -10,7 +10,7 @@ var myHosts = [
     "smtp.google.com", "pop.google.com", "pop3.google.com", "imap.google.com",
     "gmail.com", "smtp.gmail.com", "pop.gmail.com", "pop3.gmail.com", "imap.gmail.com",
     "cdn.infoqstatic.com", "blogspot.com",
-    "facebook.com",
+    "facebook.com", "steamcommunity.com",
     "twitter.com"
 ];
 
